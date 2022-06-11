@@ -1,0 +1,182 @@
+body{
+ background: linear-gradient(to right,#e6a6c6,#ebc2d5,#d483ac);  
+}
+header h1{
+    text-align: center;
+    color:white;
+    font-size: 30px;
+    font-family: cursive;
+}
+header h1:hover{
+    color:grey;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 3px solid white;
+    border-top:3px solid white;
+    padding: 10px;
+    margin: 25px;
+}
+header nav:hover{
+    background:linear-gradient(to right,lightgrey,grey);
+    border-bottom: none;
+    border-top: none;
+}
+
+.reservation{
+    background: linear-gradient(to right,lightgrey,grey);
+    width:300px;
+    height:450px;
+    padding:50px ;
+    margin: 60px;
+    float:left;
+    border-radius: 20px;
+}
+.reservation:hover{
+    background: lightgrey;
+    color:black;
+}
+
+input[type="text"]{
+    width: 90%;
+    padding: 5px;
+    margin: 5px;
+    background: white;   
+}
+input[type="text"]:focus{
+    background: lightgrey; 
+}
+.but{
+    width:30%;
+    padding: 2px;
+    background: white;
+    font-size:20px;
+    font-family: cursive;
+    margin: 5px;
+    margin-left: 100px;
+}
+.but:hover{
+    background: lightgrey; 
+
+}
+.reservation h2{
+    text-align: center;
+    font-family: cursive;
+}
+.reservation p{
+    text-align: center;
+    font-family: cursive;
+}
+.head{
+    display:flex;
+    justify-content: space-around;
+}
+.about{
+    
+    padding: 10px;
+    border-bottom: 4px solid white;
+    border-radius: 20px;
+     
+}
+.about img{
+    float: right;
+    overflow: auto;
+}
+.about p{
+    font-size: 15px;
+    font-family: serif;
+    text-align: justify;
+}
+.about h3{
+    text-align: center;
+    font-family: sans-serif;
+    color: black;
+}
+.familytime{
+    
+    padding: 10px;
+    border-bottom: 4px solid white;
+    border-radius: 20px;
+    
+}
+.familytime img{
+    text-align: center;
+}
+
+.familytime h3{
+    text-align: center;
+    font-family: sans-serif;
+    color: black;
+}
+.images{
+    display: flex;
+    justify-content: space-around;
+}
+.chef{
+    
+    padding: 10px;
+    border-bottom: 4px solid white;
+    border-radius: 20px;
+}
+.chef h3{
+    text-align: center;
+    font-family: sans-serif;
+    color: black;
+}
+.chef img{
+    float: left;
+}
+.gallary{
+   position: relative;
+    padding-left: 100px;
+    padding: 10px;
+    border-bottom: 4px solid white;
+    border-radius: 40px;
+}
+.gallary h3{
+    text-align: center;
+    font-family: sans-serif;
+    color: black;
+}
+
+
+.gallary li{
+    display:inline-block;  
+}
+
+.small{
+   width:200px;
+   height:200px;
+}
+
+.big{
+    display:none;
+    width:400px;
+    height:300px;
+    position:absolute;
+    top:50px;
+}
+
+.gallary li:hover img{
+    display:inline-flex;
+}
+.lists{
+    display: flex;
+    justify-content: space-around;
+}
+.menu{
+   
+    padding: 10px;
+    border-bottom: 4px solid white;
+    border-radius: 20px;
+}
+.menu h3{
+    text-align: center;
+    font-family: sans-serif;
+    color: black;
+}
+footer{
+    display: flex;
+    justify-content: flex-end;
+}
